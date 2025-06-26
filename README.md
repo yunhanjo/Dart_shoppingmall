@@ -1,71 +1,168 @@
 <h1 align="center">
-CampingMate
+Dart ShoppingMall Application
 </h1>
 <p align="center">
 </p>
-  <img alt="브로셔 이미지" src="https://github.com/CampingMate/CampingMate/assets/84883277/f368bebb-ae7b-4550-b13a-7fea3236048b"/>
 
 ## 프로젝트 개요
-### “Camping Mate" 는 캠핑러들을 위한 전국 캠핑장 정보 제공 커뮤니티 플랫폼입니다.
+### [Dart 기초] 개인 과제 - 콘솔 쇼핑몰
 
-#### 💡 '캠핑메이트'는 다음과 같은 분들을 위해 탄생되었습니다.
-
-> 📸 나만의 캠핑 경험을 다른 이들과 공유하며, 그 순간들을 자랑하고 싶은 분들
+#### 💡 아래의 기능이 들어있는 콘솔 프로그램 만들기
+> 👀 판매하는 상품 목록을 볼 수 있는 기능
 > 
 
-> 🌟 처음 캠핑을 시작하려는 초보자들로서, 어떤 장소가 좋은지 알고 싶은 분들
+> 🛒 구매자가 구매하고 싶은 상품들을 장바구니에 담을 수 있는 기능
 > 
 
-> 🏞 아름다운 자연 속에서의 휴식을 꿈꾸지만, 어느 캠핑장이 좋을지 선택하기 어려워하는 분들
-> 
+> 💶 구매자가 장바구니에 담은 상품들의 총 가격을 볼 수 있는 기능
+
+
+
 
 <br/>
-
-## 팀원 구성
-
-| **김르탄** | **이르탄** | **박르탄** | **최르탄** | **정르탄** |
-| :------: |  :------: | :------: | :------: | :------: |
 
 ### 프로젝트 일정
-YY/MM/DD~YY/MM/DD
-
-### 기술 스택
-| 분류 | 이름 |
-| --- | --- |
-| Architecture | <img src="https://img.shields.io/badge/MVVM-FDECC8"> |
-| Jetpack | <img src="https://img.shields.io/badge/ViewModel-2C593F"> <img src="https://img.shields.io/badge/LiveData-373737"> <img src="https://img.shields.io/badge/LifeCycle-373737"> <img src="https://img.shields.io/badge/ViewBinding-5A5A5A"> <img src="https://img.shields.io/badge/AAC-2C593F"> |
-| 비동기 처리 | <img src="https://img.shields.io/badge/Coroutine-29456C"> |
-| 데이터 처리 | <img src="https://img.shields.io/badge/EncryptedSharedPreferences-69314C"> <img src="https://img.shields.io/badge/Parcelize-89632A"> <img src="https://img.shields.io/badge/AES algorithm-89632A">     |
-| Firebase | <img src="https://img.shields.io/badge/Storage-FFCA28"> <img src="https://img.shields.io/badge/Authentication-4285F4"> <img src="https://img.shields.io/badge/Firestore-854C1D"> <img src="https://img.shields.io/badge/Function-89632A">   |
-| API통신 | <img src="https://img.shields.io/badge/Retrofit-373737">  |
-| 활용API | <img src="https://img.shields.io/badge/Naver Map Api-03C75A"> <img src="https://img.shields.io/badge/Kakao Login-FFCD00"> <img src="https://img.shields.io/badge/Gocamping data Api-492F64"> <img src="https://img.shields.io/badge/Holiday data Api-373737"> <img src="https://img.shields.io/badge/OpenSearch(ElasticSearch)-492F64">      |
-| 이미지 로더 | <img src="https://img.shields.io/badge/Glide-18BED4">  |
-| UI Frameworks | <img src="https://img.shields.io/badge/Fragment-492f64"> <img src="https://img.shields.io/badge/RecyclerViewAdapter-6e3630"> <img src="https://img.shields.io/badge/ListAdapter-373737"> <img src="https://img.shields.io/badge/XML-89632a"> <img src="https://img.shields.io/badge/MaterialDesign-757575"> <img src="https://img.shields.io/badge/ViewPager-89632a"> <img src="https://img.shields.io/badge/Shimmer-28456c"> <img src="https://img.shields.io/badge/Bottomsheet-492f64"> <img src="https://img.shields.io/badge/Splash-28456c"> <img src="https://img.shields.io/badge/Custom Photo Picker-6e3630">     
+25/06/23~25/06/27   
 
 
-### 앱 디자인 설계
-<p align="center">
- <a href="https://www.figma.com/file/IVnrWziOCqXUAwTfcDAqV8/CampingMate-Design?type=design&node-id=1%3A25&mode=design&t=pBsDU44oIsPEdYvw-1">
-<img width="802" alt="image" src="https://github.com/CampingMate/CampingMate/assets/84883277/2e6bd4f6-4f83-4d52-921f-4ce7235823b9">
-</p>
 
 
-  
-### 역할 분담
-**김르탄** : 게시물 검색, 게시판 목록 보기, 글쓰기/삭제, CustomPhotoPicker,
-게시물 댓글 쓰기/삭제, 인터넷 연결 상태 대응, 앱 분석 도구
 
-**이르탄** : DB검색 필터링, 캠핑장 이름검색, 캠핑장 정보 공유 및 댓글, 유저 정보 암호화
 
-**박르탄** : 지도 전반의 기능, 캠핑장 마트 표시 기능
+## **필수 기능**
 
-**최르탄** : 칩선택기능, 전체칩 기능 구현, 휴일정보 기능, 로그인, 스플래시
+### 1. 판매하는 상품 목록을 볼 수 있는 기능
 
-**정르탄** : 프로필 기능, 북마크 기능, 로그인/로그아웃 기능
+**[ 설명 ]**
 
-<br/>
+- `1` 을 입력했을 때 판매하고 있는 상품 목록을 출력합니다.
 
-## 주요 기능(제목을 누르면 기능별 상세 설명 페이지로 이동합니다)
+**[ 조건 ]**
+
+- 출력 형태 : `[상품명] / [상품 1개당 가격]원`
+    
+    ```dart
+    셔츠 / 45000원
+    원피스 / 30000원
+    반팔티 / 35000원
+    반바지 / 38000원
+    양말 / 5000원
+    ```
+    
+
+**[ 힌트 ]**
+
+- 반복문을 통해 상품의 정보를 하나씩 출력합니다.
+
+---
+
+### 2. 상품을 장바구니에 담을 수 있는 기능
+
+**[ 설명 ]**
+
+- `2` 를 입력했을 때 장바구니에 담을 상품 이름 (`String`) 과 상품 개수 (`int`) 를 입력 받습니다.
+
+**[ 조건 ]**
+
+- 입력한 상품의 이름이 상품 목록에 있지 않거나 상품의 개수가 0 이하의 값이면 장바구니에 담기지 않습니다.
+    - 상품 목록에 없는 상품의 이름을 입력한 경우 `입력값이 올바르지 않아요 !` 를 출력합니다.
+    - 상품의 개수를 숫자 형태로 입력하지 않은 경우 `입력값이 올바르지 않아요 !` 를 출력합니다.
+    - 입력한 상품의 개수가 0 이하의 수인 경우 `0개보다 많은 개수의 상품만 담을 수 있어요 !` 를 출력합니다.
+- 입력한 상품의 이름과 상품의 개수가 올바른 값이면 장바구니에 담깁니다.
+    - 이 경우 `장바구니에 상품이 담겼어요 !` 를 출력합니다.
+
+**[ 힌트 ]**
+
+- 조건문과 `try-catch` 문을 통해 입력값에 대한 처리를 할 수 있습니다.
+- `contains()` 또는 고차 함수를 통해 입력한 상품의 이름이 상품 목록에 있는지 판별할 수 있습니다.
+- `int.parse()` 를 통해 입력한 상품의 개수를 `int` 타입으로 변환할 수 있습니다.
+- 장바구니에 담은 상품들의 총 가격을 담기 위한 인스턴스 변수를 `ShoppingMall` 클래스에 정의한 후 그 인스턴스 변수의 값에 더해줍니다.
+
+---
+
+### 3. 장바구니에 담은 상품들의 총 가격을 볼 수 있는 기능
+
+**[ 설명 ]**
+
+- `3` 을 입력했을 때 구매자가 장바구니에 담은 상품들의 총 가격 (`int`) 을 계산하여 출력합니다.
+
+**[ 조건 ]**
+
+- 출력 형태 : `장바구니에 [가격]원 어치를 담으셨네요 !`
+    
+    ```dart
+    장바구니에 35000원 어치를 담으셨네요 ! 
+    ```
+    
+
+---
+
+### 4. 쇼핑몰 프로그램을 종료할 수 있는 기능
+
+**[ 설명 ]**
+
+- `4` 를 입력했을 때 쇼핑몰 프로그램이 종료됩니다.
+
+**[ 조건 ]**
+
+- `이용해 주셔서 감사합니다 ~ 안녕히 가세요 !` 출력 후 프로그램을 종료합니다.
+
+**[ 힌트 ]**
+
+- `while` 문을 사용하고, 프로그램을 종료하기 위한 `bool` 타입의 변수로 `while` 문을 제어합니다.
+
+- <br/>
+
+## **도전 기능**
+
+### 1. 쇼핑몰 프로그램을 종료할 시 한번 더 종료할 것인지 물어보는 기능
+
+**[ 설명 ]**
+
+- `4`를 입력하면 `정말 종료하시겠습니까?` 출력 이후 `5`를 입력하면 `이용해 주셔서 감사합니다 ~ 안녕히 가세요!` 출력 후 종료합니다.
+
+**[ 조건 ]** 
+
+- `4`를 입력 후 `5`를 입력하지 않고 다른 값 입력 시 `종료하지 않습니다.` 출력
+
+**[ 힌트 ]**
+
+- **`4`를 입력했을 때** `dart:io` 라이브러리의 `stdin.readLineSync()`를 한번 더 호출하여 입력을 받고 **조건문 이용하여 처리할 수 있습니다.**
+
+---
+
+### 2. 장바구니를 초기화할 수 있는 기능
+
+**[ 설명 ]**
+
+- `6`을 입력하면 `장바구니를 초기화합니다.` 출력 후 장바구니를 초기화합니다.
+
+**[ 조건 ]**
+
+- 장바구니가 비어있는 상태에서 `6`을 입력 시 `이미 장바구니가 비어있습니다.` 출력
+
+**[ 힌트 ]**
+
+- **`6`을 입력 했을 때 `total` 변수의 값에 따라 조건문을 두어 처리할 수 있습니다.**
+
+---
+
+### 3. 장바구니에 담은 상품들의 목록과 가격을 볼 수 있는 기능
+
+**[ 설명 ]**
+
+- `3`을 입력 시 장바구니에 담긴 상품 목록과 장바구니에 담긴 상품들의 금액 총합을 출력합니다.
+
+**[ 조건 ]**
+
+- 장바구니가 비어있을 경우 `장바구니에 담긴 상품이 없습니다.` 출력
+- 출력 형태 : `장바구니에 셔츠, 청바지, 넥타이가 담겨있네요. 총 [가격]원 입니다!`
+
+**[ 힌트 ]**
+
+- **장바구니에 담길 상품 이름을 담을 변수를 `List` 타입의 변수로 새로 생성하고, 리스트 내 요소를 한번에 출력할 수 있는 `join` 함수를 이용해 보세요 .**
+
+  <br/>
 
 | [홈 화면] | [캠핑장 상세 화면] | [검색 화면] | [지역별 캠핑장 화면] |
 | --- | --- | --- | --- |
@@ -118,16 +215,6 @@ YY/MM/DD~YY/MM/DD
 
 ## 유지보수 및 개선사항
 
-### YYYY/MM/DD: 유저정보 암호화를 위한 키 값을 서버에서 가지고 오지 못하는 이슈
-이슈 내용
-- 문제 기기: OnePlus
-- 이슈 상황: 앱 진입 시, 서버에 암호화되어있는 정보를 받아와 복호화하기 위한 키를 받아와야 하는데 일부 키를 정상적으로 받지 못하는 경우 발생
-- 임시 대응: 암호화 키를 로컬 값으로 변경함
-- 향후 계획: 서버에서 키를 가져오는 로직 변경
-
-
-### YYYY/MM/DD: EncryptedSharedPreferences 라이브러리 이슈
-이슈 내용
-- 문제 기기: Galaxy23
-- 이슈 상황: 앱 진입 시, 일부 기기에서 앱 크래시 발생. Issue Tracker [(Issue)](https://issuetracker.google.com/issues/164901843?pli=1) 를 찾아보니 수년전부터 있어온 고질적인 문제인 것으로 확인 
-- 대응: EncryptedSharedPreferences 사용 시, 크래시가 나는 경우 새로 생성하는 로직을 추가함
+### 2025/06/27: 도전 기능 미완성
+3. 장바구니에 담은 상품들의 목록과 가격을 볼 수 있는 기능
+- 향후 계획: 개발 예정
