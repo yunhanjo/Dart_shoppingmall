@@ -4,7 +4,10 @@ Dart Console ShoppingMall Application
 <p align="center">
 </p>
 
-<h2>프로젝트 개요</h2>
+### 프로젝트 개요
+<br/>
+#### 프로젝트 일정 25/06/23~25/06/27
+<br/>
 <br/>
 ### [Dart 기초] 개인 과제 - 콘솔 쇼핑몰
 
@@ -17,9 +20,6 @@ Dart Console ShoppingMall Application
 
 > 💶 구매자가 장바구니에 담은 상품들의 총 가격을 볼 수 있는 기능
 
-<br/>
-<br/>
-### 프로젝트 일정 25/06/23~25/06/27   
 <br/>
 <br/>
 
