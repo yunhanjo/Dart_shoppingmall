@@ -90,7 +90,8 @@ Dart Console ShoppingMall Application
 
 - `이용해 주셔서 감사합니다 ~ 안녕히 가세요 !` 출력 후 프로그램을 종료합니다.
 
-- <br/>
+  <br/>
+  <br/>
 
 ## **도전 기능 완료**
 
@@ -120,7 +121,7 @@ Dart Console ShoppingMall Application
 ---
 
 
-
+<br/>
 <br/>
 
 ## TroubleShooting
@@ -162,7 +163,7 @@ Dart Console ShoppingMall Application
 - 개선점: 여러 메서드에서 사용 가능
 
 
-
+<br/>
 <br/>
 
 ## 개선사항
