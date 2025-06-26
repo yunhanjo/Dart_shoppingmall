@@ -1,15 +1,17 @@
 <h1 align="center">
 Dart Console ShoppingMall Application
 </h1>
-<p align="center">
+<h2 align="center">
+프로젝트 일정 25/06/23~25/06/27
+</h2>
+
+<p align="center"> [Dart 기초] 개인 과제 - 콘솔 쇼핑몰
 </p>
 
 ### 프로젝트 개요
 <br/>
-#### 프로젝트 일정 25/06/23~25/06/27
 <br/>
 <br/>
-### [Dart 기초] 개인 과제 - 콘솔 쇼핑몰
 
 #### 💡 아래의 기능이 들어있는 콘솔 프로그램
 > 👀 판매하는 상품 목록을 볼 수 있는 기능
