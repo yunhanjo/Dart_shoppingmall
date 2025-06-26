@@ -4,7 +4,7 @@ Dart Console ShoppingMall Application
 <p align="center">
 </p>
 
-## 프로젝트 개요
+<h2>프로젝트 개요</h2>
 <br/>
 ### [Dart 기초] 개인 과제 - 콘솔 쇼핑몰
 
