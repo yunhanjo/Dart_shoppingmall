@@ -12,8 +12,7 @@ Dart Console ShoppingMall Application
 
 
 <br/>
-### 프로젝트 개요
-<br/>
+<h2>프로젝트 개요</h2>
 
 #### 💡 아래의 기능이 들어있는 콘솔 프로그램
 > 👀 판매하는 상품 목록을 볼 수 있는 기능
