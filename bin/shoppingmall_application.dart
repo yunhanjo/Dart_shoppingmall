@@ -22,7 +22,7 @@ class ShoppingMall { // 쇼핑몰을 정의하기 위한 ShoppingMall 클래스
     '반바지':38000
   };
   
-  static int totalprice = 0; // 클래스 변수 : 장바구니에 담은 상품들의 총 가격
+  int totalprice = 0; //장바구니에 담은 상품들의 총 가격
   
   // 상품 이름과 가격을 리스트화
   late var productnamelist = productMap.keys.toList();
