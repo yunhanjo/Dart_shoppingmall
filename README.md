@@ -150,12 +150,6 @@ Dart Console ShoppingMall Application
 - 해결책: Exception을 지우고 throw만 사용
 - 개선점: "오류발생" 출력
 
-#### static int totalprice = 0;
-- 문제: 장바구니에 담은 상품들의 총 가격을 담을 변수를 ShoppingMall 클래스 내의
-  여러 메서드에서 사용하고 싶어서 int totalprice = 0; 했지만 오류 발생
-- 해결책: 객체에 종속되지 않고 클래스 자체에 속하는 변수인 정적 변수 static으로 해결
-- 개선점: 클래스 내 여러 메서드에서 사용 가능
-
 #### late
 - 문제: 상품 목록을 출력하는 메서드 showProducts()에서 뿐만 아니라 다른 메서드에서도
   사용하고 싶어서 showProducts() 밖에 선언했는데 오류
